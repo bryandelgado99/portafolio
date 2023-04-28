@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Me - Paul Delgado</title>
+
+    <!---box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link rel="stylesheet" href="conti.css">
+
+</head>
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">BPDY</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+        </nav>
+    </header>
+    
+
+    <!---Contact Design-->
+        <div class="container">
+            <div class="contact-box">
+                <form id="contact-form" method="post" action="request.php">
+                <div class="left"></div>
+                <div class="right">
+                    <h1 class="conti">Contact Me!</h1>
+                    <h3 class="coco">or request me via: <span class="mail"></span></h3>
+                    <br>
+                    <input type="text" class="field" placeholder="Your Complete Name">
+                    <input type="text" class="field" placeholder="Your Country">
+                    <input type="email" class="field" placeholder="Your Mail">
+                    <input type="number" class="field" placeholder="Your phone">
+                    <textarea class="field" placeholder="Message Here"></textarea>
+
+                    <button class="btn">Send It!</button>
+            </div>
+            </form>
+        </div>
+
+    <!---Typed JS and Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="script2.js"></script>
+    
+</body>
+</html>
